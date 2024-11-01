@@ -238,3 +238,54 @@ body {
     font-weight: bold;
     padding: 1rem 1.2rem;
 }
+
+
+/* EMAIL SECTION */
+.email {
+    background-color: var(--default-white);
+    padding: 1rem 1.2rem;
+}
+
+.email h2 {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.email p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--text-color);
+    margin: .8rem 0;
+}
+
+.email input {
+    background: transparent;
+    border: 1px var(--text-color) solid;
+    padding: 10px 24px;
+    border-radius: 24px;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    margin: .5rem 0;
+}
+
+.email input::placeholder {
+    background: url(../assets/headear/Vector.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 10%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+/* FOOTER */
+
+.footer h2 {
+    background-color: #F9F9F9;
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 400;
+    padding: 1rem;
+}
