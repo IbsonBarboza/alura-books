@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style/style.css">
     <title>Alua Books</title>
 </head>
@@ -64,5 +65,74 @@
         <input type="search" class="banner-search" placeholder="Qual será sua próxima leitura?">
     </section>
 
+    <section class="carrossel">
+        <h2 class="carrossel-title">Últimos lançamentos</h2>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="./assets/main/ApacheKafka.svg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/main/Liderança.svg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/main/Javascript.svg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/main/Guia Front-end.svg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/main/Angular.svg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/main/Arquitetura.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-container">
+                <div class="card-content">
+                    <h3>Talvez você também se interesse por...</h3>
+                    <h2>Angular 11 e Firebase</h2>
+                    <p>Construindo uma aplicação integrada com a plataforma do Google.</p>
+                </div>
+                <div class="card-images">
+                    <img src="./assets/main/Angular-img.svg" alt="">
+                </div>
+            </div>
+
+            <div class="card-buttons">
+                <ul>
+                    <li>
+                        <img src="./assets/headear/Favoritos.svg" alt="">
+                    </li>
+                    <li>
+                        <img src="./assets/headear/Compras.svg" alt="">
+                    </li>
+                </ul>
+
+                <a class="more-button" href="#">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            });
+    </script>
 </body>
 </html>
