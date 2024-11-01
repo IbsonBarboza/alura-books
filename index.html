@@ -123,11 +123,85 @@
         </div>
     </section>
 
+    <!-- SECOND SLIDER -->
+    <section class="carrossel">
+        <h2 class="carrossel-title">Mais vendidos</h2>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="./assets/main/Javascript.svg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/main/ApacheKafka.svg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/main/Liderança.svg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/main/Guia Front-end.svg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/main/Angular.svg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/main/Arquitetura.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-container">
+                <div class="card-content">
+                    <img src="./assets/main/Estrelinhas.svg" alt="">
+                    <h3>Autora do Mês</h3>
+                    <h2>Juliana Agarikov</h2>
+                    <p>Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                </div>
+                <div class="card-images">
+                    <img src="./assets/main/Juliana.svg" alt="">
+                </div>
+            </div>
+
+            <div class="card-buttons">
+                <ul>
+                    <li>
+                        <img src="./assets/headear/Favoritos.svg" alt="">
+                    </li>
+                    <li>
+                        <img src="./assets/headear/Compras.svg" alt="">
+                    </li>
+                </ul>
+
+                <a class="more-button" href="#">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="topics">
+        <h2>TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul>
+            <li><a href="#">Android</a></li>
+            <li><a href="#">Marketing Digital</a></li>
+            <li><a href="#">Agile</a></li>
+            <li><a href="#">Startups</a></li>
+            <li><a href="#">HTML & CSS</a></li>
+            <li><a href="#">Python</a></li>
+            <li><a href="#">OO</a></li>
+            <li><a href="#">Java</a></li>
+        </ul>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
             spaceBetween: 10,
-            slidesPerView: 3,
+            slidesPerView: 2,
             pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets',

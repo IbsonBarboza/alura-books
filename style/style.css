@@ -139,6 +139,7 @@ body {
 
 .swiper-slide img {
     width: 100%;
+    margin: 0 -50%;
 }
 
 .swiper-pagination {
@@ -202,4 +203,38 @@ body {
     font-weight: bold;
     padding: 1rem;
     width: 50%;
+}
+
+/* TOPICS SECTION */
+.topics {
+    background: var(--main-color);
+    padding: 2rem 0;
+}
+
+.topics h2 {
+    color: var(--default-white);
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.topics ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.topics li {
+    margin: 1.5rem .5rem;
+}
+
+.topics a {
+    background-color: var(--emphasis-color);
+    text-decoration: none;
+    color: var(--default-white);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 1rem 1.2rem;
 }
