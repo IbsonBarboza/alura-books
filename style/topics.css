@@ -72,3 +72,30 @@
     font-weight: 400;
     color: var(--text-color);
 }
+
+@media screen and (min-width: 1024px) {
+    .topics h2 {
+        font-size: 1.5rem;
+    }
+
+    .topics a {
+        font-size: 1.5rem;
+        padding: 24px 32px ;
+    }
+    
+    .topics li {
+        margin: 2.2rem 1rem;
+    }
+
+    .email {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem 10%;
+    }
+
+    .email input {
+        width: 80%;
+    }
+}

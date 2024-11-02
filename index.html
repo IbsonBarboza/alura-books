@@ -120,6 +120,9 @@
                     <img src="./assets/main/Arquitetura.svg" alt="">
                 </div>
             </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
 
         <div class="card">
@@ -179,6 +182,9 @@
                     <img src="./assets/main/Arquitetura.svg" alt="">
                 </div>
             </div>
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
         </div>
 
         <div class="card">
@@ -224,15 +230,17 @@
     </section>
 
     <section class="email">
-        <h2>Fique por dentro das novidades!</h2>
-        <p>
-            Atualizações de e-books, novos livros, promoções e outros.
-        </p>
+        <div class="email-div">
+            <h2>Fique por dentro das novidades!</h2>
+            <p>
+                Atualizações de e-books, novos livros, promoções e outros.
+            </p>
+        </div>
         <input type="email" class="input-email" id="id-email" placeholder="Cadastre o seu e-mail">
 
     </section>
     <hr>
-    
+
     <footer class="footer">
         <h2>Grupo Alura</h2>
     </footer>
@@ -241,7 +249,7 @@
     <script>
         const swiper = new Swiper('.swiper', {
             spaceBetween: 10,
-            slidesPerView: 2,
+            slidesPerView: 3,
             pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets',
