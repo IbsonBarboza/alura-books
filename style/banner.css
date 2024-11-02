@@ -1,0 +1,44 @@
+/* BANNER SECTION */
+
+.banner {
+    background: var(--main-color);
+    color: var(--default-white);
+    text-align: center;
+    padding: 2.5rem 2rem;
+}
+
+.banner-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.banner-text {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 1rem;
+}
+
+.banner-search {
+    background: transparent;
+    color: var(--default-white);
+    border: 1px var(--default-white) solid;
+    border-radius: 1.5rem;
+    padding: 0.7rem 1.5rem;
+    width: 100%;
+    outline: none;
+    box-shadow: none;
+}
+
+.banner-search::placeholder {
+    background: url(../assets/headear/Pesquisa.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    color: var(--default-white);
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner-title {
+        font-size: 2.25rem;
+    }
+}

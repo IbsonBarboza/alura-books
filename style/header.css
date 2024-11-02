@@ -1,0 +1,126 @@
+/* HEADER */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--default-white);
+    position: relative;
+    padding: 1rem 1.5rem;
+}
+
+.logo-title {
+    display: none;
+    font-family: "Josifin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.header-list {
+    display: none;
+    list-style: none;
+}
+
+.header-list, .header-list a {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.header-right a{
+    text-decoration: none;
+}
+
+.menu-img {
+    width: 3rem;
+    height: 3rem;
+    background-image: url(../assets/headear/Menu.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.menu-button {
+    display: none;
+}
+
+.menu-button:checked ~ .list {
+    display: block;
+}
+
+.list {
+    display: none;
+    position: absolute;
+    list-style: none;
+    top: 100%;
+    margin-left: -1.5rem;
+    background-color: var(--default-white);
+    width: 60vw;
+    z-index: 100;
+}
+
+.list-title {
+    padding: 1rem;
+    color: var(--emphasis-color);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.list-item a {
+    display: block;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: normal;
+    text-decoration: none;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 1024px) {
+    .logo {
+        display: flex;
+        gap: .5rem;
+    }
+    
+    .logo-title {
+        display: inline-block;
+    }
+
+    .header-list {
+        display: flex;
+        gap: 3rem;
+    }
+    
+    .fav {
+        display: none;
+    }
+
+   .menu {
+    display: none;
+   }
+
+   .list-menu:checked ~ .list {
+    display: block;
+    width: auto;
+    margin-left: 0rem;
+    }
+
+    .list-menu {
+        display: none;
+    }
+
+    .list-item:hover {
+        background: var(--main-color);    
+    }
+
+    .list-link:hover {
+        color: #fff;
+    }
+}

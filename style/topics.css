@@ -1,0 +1,74 @@
+/* TOPICS SECTION */
+.topics {
+    background: var(--main-color);
+    padding: 2rem 0;
+}
+
+.topics h2 {
+    color: var(--default-white);
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.topics ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.topics li {
+    margin: 1.5rem .5rem;
+}
+
+.topics a {
+    background-color: var(--emphasis-color);
+    text-decoration: none;
+    color: var(--default-white);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 1rem 1.2rem;
+}
+
+
+/* EMAIL SECTION */
+.email {
+    background-color: var(--default-white);
+    padding: 1rem 1.2rem;
+}
+
+.email h2 {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.email p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--text-color);
+    margin: .8rem 0;
+}
+
+.email input {
+    background: transparent;
+    border: 1px var(--text-color) solid;
+    padding: 10px 24px;
+    border-radius: 24px;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    margin: .5rem 0;
+}
+
+.email input::placeholder {
+    background: url(../assets/headear/Vector.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 10%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-color);
+}

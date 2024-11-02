@@ -1,0 +1,20 @@
+/* CARROSSEL SECTION */
+.carrossel-title {
+    color: var(--emphasis-color);
+    text-align: center;
+    text-transform: uppercase;
+    background-color: var(--default-white);
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 1rem 0.5rem;
+}
+
+.swiper-slide img {
+    width: 100%;
+    margin: 0 -50%;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: .5rem 0;
+}
