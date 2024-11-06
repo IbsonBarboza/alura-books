@@ -1,9 +1,52 @@
 /* FOOTER */
 
-.footer h2 {
+.footer {
     background-color: #F9F9F9;
+}
+
+.footer h2 {
     font-size: 1rem;
     color: #000000;
     font-weight: 400;
     padding: 1rem;
+}
+
+.footer-list {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 3.5rem;
+    }
+
+    .footer h2 {
+        font-size: 1.5rem;
+    }
+
+    .footer-list {
+        list-style: none;
+        display: block;
+    }
+
+    .footer-list-title {
+        text-transform: uppercase;
+        color: var(--footer-title-color);
+
+    } 
+
+    .footer-list-item {
+        display: flex;
+        align-items: center;
+        margin: 1rem 0;
+        font-size: 14px;
+    }
+
+    .footer-list-item a{
+        margin-left: .5rem;
+        text-decoration: none;
+        color: var(--footer-text-color);
+    }
 }

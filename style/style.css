@@ -11,6 +11,8 @@
     --default-white: #FFFFFF;
     --emphasis-color: #EB9B00;
     --text-color: #002F52;
+    --footer-title-color: #858585; 
+    --footer-text-color: #474646; 
     --main-color: linear-gradient(97.54deg, #002F52 35.49%, #326589 169.37%);
 
 }
