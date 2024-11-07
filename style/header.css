@@ -124,3 +124,38 @@
         color: #fff;
     }
 }
+
+.header-right a p {
+    display: none;
+}
+
+@media screen and (min-width: 1728px) {
+    .header {
+        padding: 1rem 3rem;
+    }
+
+    .header-list {
+        margin-right: auto;
+    }
+
+    .logo-title {
+        margin-right: 3rem;
+    }
+    
+    .header-right {
+        display: flex;
+        gap: 3rem;
+    }
+    
+    .header-icons {
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .header-right a p {
+        display: inline-block;
+        font-size: 1.25rem;
+        color: black;
+    }
+}
