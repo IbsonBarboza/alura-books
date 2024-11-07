@@ -81,6 +81,13 @@
     .topics a {
         font-size: 1.5rem;
         padding: 24px 32px ;
+        transition: .5s;
+    }
+
+    .topics a:hover {
+        padding: 28px 36px;
+        border-radius: 15px;
+        transition: .5s;
     }
     
     .topics li {

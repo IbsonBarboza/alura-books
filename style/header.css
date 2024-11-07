@@ -83,6 +83,14 @@
     text-transform: uppercase;
 }
 
+.list-item:hover {
+    background: var(--main-color);    
+}
+
+.list-link:hover {
+    color: #fff;
+}
+
 @media screen and (min-width: 1024px) {
     .logo {
         display: flex;
@@ -115,14 +123,7 @@
     .list-menu {
         display: none;
     }
-
-    .list-item:hover {
-        background: var(--main-color);    
-    }
-
-    .list-link:hover {
-        color: #fff;
-    }
+    
 }
 
 .header-right a p {

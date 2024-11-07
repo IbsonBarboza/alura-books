@@ -16,6 +16,10 @@
     display: none;
 }
 
+.footer-list-item a:hover {
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 1024px) {
     .footer {
         display: flex;

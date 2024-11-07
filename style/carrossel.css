@@ -80,6 +80,10 @@
     padding: 1rem;
 }
 
+.more-button:hover {
+    background: var(--main-color);
+}
+
 .card-images {
     display: flex;
     flex-direction: column;
